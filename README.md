@@ -25,7 +25,11 @@ This Python script allows users to compare a list of their **public IP addresses
    ```sh
    python find_matching_IPs.py
    ```
-
+4. Files:
+   Input File: https://raw.githubusercontent.com/arsolutioner/fortigate-belsen-leak/refs/heads/main/affected_ips.txt
+   Input File ourIPs.txt: This is the file with your public IP addresses. IP addresses only supported. CIDR notation not supported.
+   Output File matchedIPs.txt: This is the output file after the comparison.
+   
 ## Disclaimer
 This tool is provided for informational and security awareness purposes only. The authors are not responsible for misuse or damages resulting from its use.
 
